@@ -10,7 +10,7 @@
     <div class="App-content">
       <app class="App-title">
         <h1>GonzDev</h1>
-        <p>Omar Gonzalez</p>
+        <p>Omar González</p>
       </app>
       <figure>
         <img class="logo-pic" src="/log.svg" alt="gonzDev_Logo" />
