@@ -6,32 +6,39 @@
   <ul>
     <li>
       <a class="icono" href="https://github.com/omargonzalez996/">
-        <Icon icon="mdi:github" />
+        <Icon icon="mdi:github" class="big-icon" />
       </a>
     </li>
     <li>
-      <a class="icono"  href="https://www.instagram.com/omi.who96/">
-        <Icon icon="ri:instagram-fill" />
+      <a class="icono" href="https://www.instagram.com/omi.who96/">
+        <Icon icon="ri:instagram-fill" class="big-icon" />
       </a>
     </li>
     <li>
-      <a class="icono"  href="https://www.facebook.com/omi.who">
-        <Icon icon="ic:baseline-facebook" />
+      <a class="icono" href="https://www.facebook.com/omi.who">
+        <Icon icon="ic:baseline-facebook" class="big-icon" />
       </a>
     </li>
     <li>
-      <a class="icono"  href="https://steamcommunity.com/profiles/76561198187820919/">
-        <Icon icon="mdi:steam" />
+      <a
+        class="icono"
+        href="https://steamcommunity.com/profiles/76561198187820919/"
+      >
+        <Icon icon="mdi:steam" class="big-icon" />
       </a>
     </li>
   </ul>
 </nav>
 
 <style>
-  .icono {
-    height: 100px;
-    width: 100px;
+  a :global(.big-icon) {
+    font-size: 80px;
     color: white;
+    &:hover {
+      color: whitesmoke;
+      font-size: 90px;
+      transition: 0.2s ease-in;
+    }
   }
   nav {
     padding: 1rem;
@@ -48,11 +55,5 @@
     cursor: pointer;
     padding: 0.5rem;
     border: none;
-    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  li:hover {
-    color: rgb(200, 230, 255);
-    transition: 0.5s ease-in;
   }
 </style>

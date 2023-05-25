@@ -119,7 +119,6 @@
       text-align: center;
     }
     .navbar-container {
-      
     }
   }
 </style>
