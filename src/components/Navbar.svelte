@@ -1,45 +1,58 @@
 <script>
-  let activeItem = null;
-
-  function setActive(item) {
-    activeItem = item;
-  }
+  import Icon from "@iconify/svelte";
 </script>
 
 <nav>
   <ul>
-    <li class:selected={activeItem === 'home'} on:click={() => setActive('home')}>Home</li>
-    <li class:selected={activeItem === 'about'} on:click={() => setActive('about')}>About</li>
-    <li class:selected={activeItem === 'services'} on:click={() => setActive('services')}>Services</li>
-    <li class:selected={activeItem === 'contact'} on:click={() => setActive('contact')}>Contact</li>
+    <li>
+      <a class="icono" href="https://github.com/omargonzalez996/">
+        <Icon icon="mdi:github" />
+      </a>
+    </li>
+    <li>
+      <a class="icono"  href="https://www.instagram.com/omi.who96/">
+        <Icon icon="ri:instagram-fill" />
+      </a>
+    </li>
+    <li>
+      <a class="icono"  href="https://www.facebook.com/omi.who">
+        <Icon icon="ic:baseline-facebook" />
+      </a>
+    </li>
+    <li>
+      <a class="icono"  href="https://steamcommunity.com/profiles/76561198187820919/">
+        <Icon icon="mdi:steam" />
+      </a>
+    </li>
   </ul>
 </nav>
 
 <style>
+  .icono {
+    height: 100px;
+    width: 100px;
+    color: white;
+  }
   nav {
-    background-color: #333;
-    color: #fff;
     padding: 1rem;
   }
 
   ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0;
   }
 
   li {
     cursor: pointer;
     padding: 0.5rem;
-    border-radius: 4px;
+    border: none;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   }
 
   li:hover {
-    background-color: #555;
-  }
-
-  .selected {
-    background-color: #777;
+    color: rgb(200, 230, 255);
+    transition: 0.5s ease-in;
   }
 </style>

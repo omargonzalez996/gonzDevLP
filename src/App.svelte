@@ -1,4 +1,5 @@
 <script>
+  import Navbar from "./components/Navbar.svelte";
 </script>
 
 <video autoplay muted loop id="back-vid">
@@ -8,13 +9,16 @@
 <div class="App">
   <div class="App-container">
     <div class="App-content">
-      <app class="App-title">
+      <div class="App-title">
         <h1>GonzDev</h1>
         <p>Omar González</p>
-      </app>
+      </div>
       <figure>
         <img class="logo-pic" src="/tall-logo.png" alt="gonzDev_Logo" />
       </figure>
+    </div>
+    <div class="navbar-container">
+      <Navbar />
     </div>
   </div>
 </div>
@@ -113,6 +117,9 @@
     }
     figure {
       text-align: center;
+    }
+    .navbar-container {
+      
     }
   }
 </style>
