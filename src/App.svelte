@@ -26,7 +26,7 @@
 <style>
 @font-face {
   font-family: Pacifico;
-  src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+  src: url("https://fonts.googleapis.com/css?family=Pacifico");
 }
   :global(*) {
     box-sizing: border-box;
