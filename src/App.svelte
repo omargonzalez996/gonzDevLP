@@ -24,7 +24,10 @@
 </div>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@font-face {
+  font-family: Pacifico;
+  src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+}
   :global(*) {
     box-sizing: border-box;
   }
