@@ -13,7 +13,7 @@
         <p>Omar González</p>
       </app>
       <figure>
-        <img class="logo-pic" src="/log.svg" alt="gonzDev_Logo" />
+        <img class="logo-pic" src="/tall-logo.png" alt="gonzDev_Logo" />
       </figure>
     </div>
   </div>
