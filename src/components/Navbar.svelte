@@ -27,6 +27,16 @@
         <Icon icon="mdi:steam" class="big-icon" />
       </a>
     </li>
+    <li>
+      <a class="icono" href="https://wa.me/524661342722">
+        <Icon icon="ri:whatsapp-fill" class="big-icon" />
+      </a>
+    </li>
+    <li>
+      <a class="icono" href="mailto:ejemplo@example.com">
+        <Icon icon="material-symbols:mail" class="big-icon" />
+      </a>
+    </li>
   </ul>
 </nav>
 

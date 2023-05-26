@@ -1,0 +1,12 @@
+Token = partes de palabras en las que chatgpt divide un prompt
+
+-> Here is he way this sentence will be tokenized
+-<convertido a tokens >-> (10 tokens)
+    Here | is | the | way | this | sentence | will | be | token | ized 
+
+-> Vamos a hablar en español
+-<convertido a tokens >-> (12 tokens)
+    V | amos | a | ha | bl | ar | en | es | pa | ñ | ol
+
+*** GPT-3.5 tiene un límite de 4096 tokens para una sola entrada ***
+

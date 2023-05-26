@@ -3,7 +3,7 @@
 </script>
 
 <video autoplay muted loop id="back-vid">
-  <source src="/back.mp4" type="video/mp4" />
+  <source src="/back2.mp4" type="video/mp4" />
 </video>
 
 <div class="App">
@@ -24,10 +24,10 @@
 </div>
 
 <style>
-@font-face {
-  font-family: Pacifico;
-  src: url("https://fonts.googleapis.com/css?family=Pacifico");
-}
+  @font-face {
+    font-family: Pacifico;
+    src: url("https://fonts.googleapis.com/css?family=Pacifico");
+  }
   :global(*) {
     box-sizing: border-box;
   }
@@ -37,8 +37,10 @@
     margin: 0;
     padding: 0;
     color: white;
+    overflow: hidden;
   }
   #back-vid {
+    filter: blur(10px);
     position: fixed;
     right: 0;
     bottom: 0;
@@ -52,7 +54,7 @@
     overflow: hidden;
   }
   .App {
-    background: rgba(24, 96, 179, 0.5);
+    background: rgba(15, 62, 116, 0.5);
     color: #fff;
     position: absolute;
     bottom: 0;
@@ -73,8 +75,9 @@
   }
   .App-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 30px;
   }
   .logo-pic {
     filter: invert(1);
@@ -100,7 +103,6 @@
     padding: 0;
     text-align: right;
   }
-
   @media (max-width: 534px) {
     .App-title {
       text-align: center;
@@ -112,6 +114,7 @@
       font-size: 25px;
     }
     .App-content {
+      margin-top: 70px;
       display: block;
     }
     .logo-pic {
