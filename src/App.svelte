@@ -108,7 +108,7 @@
       text-align: center;
     }
     h1 {
-      font-size: 65px;
+      font-size: 50px;
     }
     p {
       font-size: 25px;
@@ -119,7 +119,7 @@
     }
     .logo-pic {
       margin-top: 30px;
-      width: 50%;
+      width: 40%;
     }
     figure {
       text-align: center;

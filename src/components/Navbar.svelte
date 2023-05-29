@@ -66,4 +66,9 @@
     padding: 0.5rem;
     border: none;
   }
+  @media (max-width: 534px) {
+    a :global(.big-icon) {
+    font-size: 50px;
+    color: white;
+  }
 </style>
